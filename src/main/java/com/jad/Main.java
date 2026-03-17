@@ -29,5 +29,6 @@ public class Main {
         System.out.println(productReportService.getByIdProduct(200).toPrettyJson());
 
         DBConnector.getInstance().disconnect();
+        //test
     }
 }
